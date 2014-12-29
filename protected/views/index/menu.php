@@ -169,6 +169,28 @@
                   array('label'=>'专辑列表', 'url'=>array('/album/ZyAlbum/Index'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Album.ZyAlbum.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
                   array('label'=>'创建专辑', 'url'=>array('/album/ZyAlbum/Create'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Album.ZyAlbum.Create', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
               ),'visible'=>Yii::app()->authManager->checkAccess('Album.ZyAlbum.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'explode','key'=>'03_cat_and_goods','name'=>'menu')),
+              array('label'=>'订单管理', 'items'=>array(
+                  array('label'=>'订单列表', 'url'=>array('/order/ZyOrder/Index'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
+              ),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'explode','key'=>'03_cat_and_goods','name'=>'menu')),
+              array('label'=>'试题管理', 'items'=>array(
+                  array('label'=>'试题列表', 'url'=>array('/order/ZyOrder/Index'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
+              ),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'explode','key'=>'03_cat_and_goods','name'=>'menu')),
+              array('label'=>'财务管理', 'items'=>array(
+                  array('label'=>'财务列表', 'url'=>array('/order/ZyOrder/Index'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
+              ),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'explode','key'=>'03_cat_and_goods','name'=>'menu')),
+              array('label'=>'包库管理', 'items'=>array(
+                  array('label'=>'包库列表', 'url'=>array('/order/ZyOrder/Index'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
+              ),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'explode','key'=>'03_cat_and_goods','name'=>'menu')),
+              array('label'=>'消息管理', 'items'=>array(
+                  array('label'=>'消息列表', 'url'=>array('/order/ZyOrder/Index'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
+              ),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'explode','key'=>'03_cat_and_goods','name'=>'menu')),
+              array('label'=>'系统管理', 'items'=>array(
+                  array('label'=>'网站设置', 'url'=>array('/order/ZyOrder/Index'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
+              ),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'explode','key'=>'03_cat_and_goods','name'=>'menu')),
+              array('label'=>'资讯管理', 'items'=>array(
+                  array('label'=>'资讯列表', 'url'=>array('/order/ZyOrder/Index'), 'linkOptions'=>array('target'=>'main-frame'),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'menu-item') ),
+              ),'visible'=>Yii::app()->authManager->checkAccess('Order.ZyOrder.Index', Yii::app()->user->id),'itemOptions'=>array('class'=>'explode','key'=>'03_cat_and_goods','name'=>'menu')),
+              
           ),
       ));
 

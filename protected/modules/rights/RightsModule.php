@@ -113,11 +113,11 @@ class RightsModule extends CWebModule
 				'class'=>'RGenerator',
 			),
 		));
-        $this->superuserName='administrators';//超级管理员
-        $this->userClass='Admin';//用户模型类
+        $this->superuserName='administrators';
+        $this->userClass='Admin';
         $this->authenticatedName='Authenticated';
-        $this->userIdColumn='id';//user表主键
-        $this->userNameColumn='username';//user表用户名
+        $this->userIdColumn='id';
+        $this->userNameColumn='username';
         $this->enableBizRule=true;
         $this->enableBizRuleData=false;
         $this->displayDescription=true;
@@ -127,7 +127,7 @@ class RightsModule extends CWebModule
         $this->layout='rights.views.layouts.main';
         $this->appLayout='application.views.layouts.main';
         //'cssFile'=>'rights.css',
-        $this->install=true;//安装成功以后记得改成false
+        $this->install=false;
         $this->debug=false;
         //'cssFile'=>'rights.css',
 		$this->defaultController = 'assignment';
